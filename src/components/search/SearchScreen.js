@@ -29,7 +29,7 @@ import './SearchScreen.css';
 
     return (
         <div className="row">
-            <div className="col-5">
+            <div className={` ${style={maxWidth:"480px"}? 'col-12' : 'col-5'}`}>
                 <h4>Search Form</h4>
                 <hr/>
 
@@ -51,7 +51,7 @@ import './SearchScreen.css';
                 </button>
                 </form>
             </div>
-            <div className="col-7">
+            <div className={` ${style={maxWidth:"480px"}? 'col-12' : 'col-7'}`}>
                 <h4>
                 Results
                 </h4>
