@@ -4,7 +4,7 @@ import { useLocation } from 'react-router-dom'
 import { useForm } from '../../hooks/useForm'
 import { HeroCard } from '../heroes/HeroCard'
 import { getHeroesByName } from '../../selectors/getHeroesByName';
-import './SearchScreen.css';
+
  export const SearchScreen = ({history}) => {
     
     const location = useLocation()
