@@ -51,7 +51,7 @@ export const HeroScreen = ({history}) => {
                 <h5>Characters</h5>
                 <p>{characters}</p>
                 <button 
-                className="btn btn-outline-info"
+                className="btn btn-outline-info mb-2"
                 onClick={handleReturn}
                 >Return</button>
             </div>
